@@ -1,6 +1,20 @@
 #!/usr/bin/bash
 
 
+menu(){
+	printf "Do You want to Install medical imaging packages?(y/n)"
+	read res
+	if [ "$res" == y ];then
+		installer
+	elif [ "$res" == n ];then
+		exit 0
+	else
+		menu
+	fi
+}
+
+installer(){
+
 ##Amide
 #AMIDE: (Amide's a Medical Imaging Data Examiner) AMIDE is a tool for viewing and analyzing medical image data sets. It's capabilities include the simultaneous handling of multiple data sets imported from a variety of file formats, image fusion, 3D region of interest drawing and analysis, volume rendering, and rigid body alignments.
 
@@ -73,3 +87,6 @@ sudo apt install King
 # The ISMRMRD format combines a mix of flexible data structures (XML header) and fixed structures (equivalent to C-structs) to represent MRI data.In addition, the ISMRMRD format also specifies an image header for storing reconstructed images and the accompanying C++ library provides a convenient way of writing such images into HDF5 files along with generic arrays for storing less well defined data structures, e.g. coil sensitivity maps or other calibration data.This package provides the command-line tools.
 
 sudo apt install ismrmrd-tools 
+
+
+}
