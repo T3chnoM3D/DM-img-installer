@@ -1,4 +1,75 @@
 #!/usr/bin/bash
 
 
+##Amide
+#AMIDE: (Amide's a Medical Imaging Data Examiner) AMIDE is a tool for viewing and analyzing medical image data sets. It's capabilities include the simultaneous handling of multiple data sets imported from a variety of file formats, image fusion, 3D region of interest drawing and analysis, volume rendering, and rigid body alignments.
 
+sudo apt install amide
+
+
+## Bart
+#The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image-reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, Fourier and wavelet transforms, as well as generic implementations of iterative optimization algorithms. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing.
+
+sudo apt install bart
+
+# Camitk-imp 
+## CamiTK helps researchers and clinicians to easily and rapidly collaborate in order to prototype CAMI applications, that feature medical images, surgical navigation and biomechanical simulations.camitk-imp is the CamiTK workbench application where you can test all available extensions for prototyping. It provides an easy and interactive access to all available data and algorithm parameters, including the one you build yourself using the CamiTK SDK.For example, camitk-imp can visualize medical images from a lot of different (standard) formats, offers image processing and segmentation algorithms to reconstruct a mesh geometry and run a biomechanical simulation.
+
+sudo apt install camitk-imp 
+
+
+# ctn
+##CamiTK helps researchers and clinicians to easily and rapidly collaborate in order to prototype CAMI applications, that feature medical images, surgical navigation and biomechanical simulations.camitk-imp is the CamiTK workbench application where you can test all available extensions for prototyping. It provides an easy and interactive access to all available data and algorithm parameters, including the one you build yourself using the CamiTK SDK.For example, camitk-imp can visualize medical images from a lot of different (standard) formats, offers image processing and segmentation algorithms to reconstruct a mesh geometry and run a biomechanical simulation.
+
+sudo apt install ctn
+
+# ctsim
+##CamiTK helps researchers and clinicians to easily and rapidly collaborate in order to prototype CAMI applications, that feature medical images, surgical navigation and biomechanical simulations.camitk-imp is the CamiTK workbench application where you can test all available extensions for prototyping. It provides an easy and interactive access to all available data and algorithm parameters, including the one you build yourself using the CamiTK SDK.For example, camitk-imp can visualize medical images from a lot of different (standard) formats, offers image processing and segmentation algorithms to reconstruct a mesh geometry and run a biomechanical simulation.
+
+
+sudo apt install ctsim
+
+
+# Dcm2niix 
+##dcm2niix is the successor of dcm2nii, a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simpler NIfTI format used by many scientific tools. It works for all modalities (CT, MRI, PET, SPECT) and sequence types.
+sudo apt install dcm2niix 
+
+# Dcmtk 
+##DCMTK includes a collection of libraries and applications for examining, constructing and converting DICOM image files, handling offline media, sending and receiving images over a network connection, as well as demonstrative image storage and worklist servers.
+
+sudo apt install Dcmtk 
+
+# Dicom3tools 
+## DICOM medical image files manipulation and conversion tools
+sudo apt install dicom3tools 
+
+
+## Dicomnifti 
+# The dinifti program converts MRI images stored in DICOM format to NIfTI format. The NIfTI format is thought to be the new standard image format for medical imaging and can be used with for example with FSL, AFNI, SPM, Caret or Freesurferdinifti converts single files, but also supports fully automatic batch conversions of complete dicomdirs. Additionally, converted NIfTI files can be properly named, using image series information from the DICOM files.
+
+sudo apt install dicomnifti 
+
+
+# Dicomscope 
+## DICOMscope is a free DICOM viewer which can display uncompressed, monochrome DICOM images from all modalities and which supports monitor calibration according to DICOM part 14 as well as presentation states.DICOMscope offers a print client (DICOM Basic Grayscale Print Management) which also implements the optional Presentation LUT SOP Class.The development of this prototype was commissioned by the "Committee for the Advancement of DICOM" and demonstrated at the European Congress of Radiology ECR 1999. An enhanced version was developed for the "DICOM Display Consistency Demonstration" at RSNA InfoRAD 1999.
+
+sudo apt install Dicomscope 
+
+# Ginkgocadx
+
+sudo apt install ginkgocadx
+
+
+# Itksnap 
+## Medical Imaging Software and complete DICOM Viewer
+sudo apt install itksnap 
+
+# King
+## KiNG (Kinemage, Next Generation) is an interactive system for three-dimensional vector graphics. It supports a set of graphics primitives that make it suitable for many types of graphs, plots, and other illustrations; although its first use was to display macromolecular structures for biophysical research. KiNG builds on Mage, JavaMage, and the "kinemage" (kinetic image) concept to deliver a full-featured Java application with a user-friendly interface and integrated editing features. The KiNG jar file can be used within a web page as a Java applet or Java object to promote easy access to kinemages or coordinate files from a web browser.
+
+sudo apt install King
+
+##Ismrmrd-tools 
+# The ISMRMRD format combines a mix of flexible data structures (XML header) and fixed structures (equivalent to C-structs) to represent MRI data.In addition, the ISMRMRD format also specifies an image header for storing reconstructed images and the accompanying C++ library provides a convenient way of writing such images into HDF5 files along with generic arrays for storing less well defined data structures, e.g. coil sensitivity maps or other calibration data.This package provides the command-line tools.
+
+sudo apt install ismrmrd-tools 
